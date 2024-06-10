@@ -108,8 +108,8 @@ while True:
     elif employ == "4":
         id = str(input("Enter your id: "))
         employee = employee_system.delete_employee(id)
-        # if employee:
-        #     employee.delete_employee()
+        if employee:
+            employee.delete_employee()
 
 
     elif employ == "5":
